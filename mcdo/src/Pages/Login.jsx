@@ -110,17 +110,17 @@ const Login = () => {
       <Box>
         <form onSubmit={handleSubmit}  >
        
-          <Heading m="20px auto 10px" fontSize="18px" fontWeight="600" letterSpacing="1px" color="#e4002b">Email address</Heading>
-          <Input focusBorderColor = "#e4002b" color="black"  type="text" value={email} onChange={e => setEmail(e.target.value)} />
+          <Heading m="20px auto 10px" fontSize="18px" fontWeight="600" letterSpacing="1px" color="	#FFC72C">Email address</Heading>
+          <Input focusBorderColor = "	#FFC72C" color="black"  type="text" value={email} onChange={e => setEmail(e.target.value)} />
           
-          <Heading m="20px auto 10px" color="#e4002b" fontSize="18px" fontWeight="600" letterSpacing="1px">Password</Heading>
-          <Input  focusBorderColor = "#e4002b" color="black" type="password" value={password}
+          <Heading m="20px auto 10px" color="	#FFC72C" fontSize="18px" fontWeight="600" letterSpacing="1px">Password</Heading>
+          <Input  focusBorderColor = "	#FFC72C" color="black" type="password" value={password}
              onChange={(e) => setPassword(e.target.value)} />
           
-          <Input letterSpacing="1px" fontWeight="600" color="#fff" bg="#e4002b"  type="submit" mt="30px" />
+          <Input letterSpacing="1px" fontWeight="600" color="#fff" bg="	#FFC72C"  type="submit" mt="30px" />
        
         </form>
-        <Text mt="20px">Don't have an account ? <Link to="/signup" style={{color:"#e4002b"}}>Signup</Link></Text>
+        <Text mt="20px">Don't have an account ? <Link to="/signup" style={{color:"	#FFC72C"}}>Signup</Link></Text>
       </Box>
     </Box>
     

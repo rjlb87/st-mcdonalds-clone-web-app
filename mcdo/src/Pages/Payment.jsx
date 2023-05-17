@@ -204,7 +204,7 @@ async function displayRazorpay() {
             </Flex>
           </Radio>
           <hr /> */}
-          <Radio onClick={() => {
+          {/* <Radio onClick={() => {
             setPayMtd("online");
           }} checked={payMtd=="online"} m="20px auto" name="payMtd" value="online">
             <Flex onClick={() => {
@@ -224,7 +224,7 @@ async function displayRazorpay() {
                 src="https://pixlok.com/wp-content/uploads/2021/05/PhonePe-Icons-PNG-Image-300x300.jpg"
               />
             </Flex>
-          </Radio>
+          </Radio> */}
           <hr />
           {/* <Radio onClick={() => {
             setPayMtd("online");
