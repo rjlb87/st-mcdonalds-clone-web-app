@@ -340,7 +340,7 @@ const Navbar = () => {
                                   Contact Us
                                 </Box>
                                 <Box h="40px" >
-                                  VFC Feedback 
+                                  McDonald's Feedback 
                                 </Box>
                                 <Box h="40px" >
                                   Privacy Policy 

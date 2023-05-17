@@ -3,7 +3,6 @@ import React, { useContext, useEffect } from "react";
 import { CartContext } from "../Context/CartContext/CartContext";
 
 import CartProduct from "./CartProduct";
-import empty_bucket from "../Assets/images/empty_bucket.gif";
 import { NavLink } from "react-router-dom";
 import SubTotal from "../Components/SubTotal";
 
