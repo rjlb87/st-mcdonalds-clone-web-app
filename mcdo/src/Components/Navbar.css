@@ -1,0 +1,27 @@
+/* #parag{
+   background-color: black; 
+} */
+/* #navbar {
+    overflow: hidden;
+    
+  } */
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #nav_main{
+    position: fixed;
+    top: 0;
+    /* box-shadow: dark-lg; */
+
+  }
+
+  Link:hover{
+  color:#FFC72C ;
+  }
+
+  b:hover{
+    color: #FFC72C;
+    }
