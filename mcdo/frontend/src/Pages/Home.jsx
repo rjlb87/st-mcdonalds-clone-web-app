@@ -29,7 +29,7 @@ import Carousel from "react-bootstrap/Carousel";
 // import loader_gif from "../Assets/images/loader_gif.gif";
 import { Link, NavLink } from "react-router-dom";
 import PickUpLocaton from "../Components/PickUpLocaton";
-import VerticalLine from "../Components/VerticalLine";
+
 
 
 const browseCategoriesDataFromApi = () => {
@@ -84,7 +84,6 @@ const Home = () => {
       <Hide below="sm">
         <PickUpLocaton />
         <Center>
-          <VerticalLine />
         </Center>
 
         <Box h="50px">
@@ -157,7 +156,6 @@ const Home = () => {
       <Hide below="sm">
         <Box p="0 150px">
           <Box h="50px">
-            <VerticalLine />
           </Box>
           <Box>
             {/* <VStack> */}

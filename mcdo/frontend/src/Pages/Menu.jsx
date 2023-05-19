@@ -14,8 +14,6 @@ import {
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-
-import VerticalLine from "../Components/VerticalLine";
 import BeveragesAndDesserts from "../menu/BeveragesAndDesserts";
 import BiryaniBuckets from "../menu/BiryaniBuckets";
 import BoxMeals from "../menu/BoxMeals";
@@ -115,7 +113,7 @@ const Menu = () => {
              
               <Box >
               
-                <VerticalLine />
+      
                 <Heading mb="10px" size="lg">MENU</Heading>
               
               </Box>
