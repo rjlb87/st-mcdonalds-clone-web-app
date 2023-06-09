@@ -10,7 +10,6 @@ import ChickenBucket from "../menu/ChickenBucket";
 import HotLaunches from "../menu/HotLaunches";
 import BoxMeals from "../menu/BoxMeals";
 import Burgers from "../menu/Burgers";
-import BiryaniBuckets from "../menu/BiryaniBuckets";
 import Snack from "../menu/Snack";
 import BeveragesAndDesserts from "../menu/BeveragesAndDesserts";
 import PrivateRoute from "../Components/PrivateRoute";
@@ -52,7 +51,6 @@ const AllRoutes = () => {
       <Route path="/menu/hotLaunches" element={<HotLaunches />}></Route>
       <Route path="/menu/boxMeals" element={<BoxMeals />}></Route>
       <Route path="/menu/burgers" element={<Burgers />}></Route>
-      <Route path="/menu/biryaniBuckets" element={<BiryaniBuckets />}></Route>
       <Route path="/menu/snack" element={<Snack />}></Route>
       <Route
         path="/menu/beveragesAndDesserts"

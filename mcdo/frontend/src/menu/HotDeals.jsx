@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import SingleCard from "./SingleCard";
 
 const dealDataFromApi = () => {
-  return fetch(`https://vfc-database.vercel.app/products?cate=hotDeals`).then((res) =>
+  return fetch(`https://mcdo-database.vercel.app/products?cate=hotDeals`).then((res) =>
     res.json()
   );
 };

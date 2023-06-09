@@ -15,7 +15,6 @@ import {
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import BeveragesAndDesserts from "../menu/BeveragesAndDesserts";
-import BiryaniBuckets from "../menu/BiryaniBuckets";
 import BoxMeals from "../menu/BoxMeals";
 import Burgers from "../menu/Burgers";
 import ChickenBucket from "../menu/ChickenBucket";
@@ -31,47 +30,7 @@ import {Link} from "react-scroll"
 const Menu = () => {
   // const [item,SetItem] = useState([])
   const [isLoading,setIsLoading] = useState(false)
-  // const [inp,setInp] = useState("")
-  // const [searchdata,setSearchData] = useState([])
-
-  // useEffect(()=>{
-  //   getdatafromback()
-  // },[])
-
-  // console.log(inp);
-
-  // const getdatafromback = () => {
-  //   setIsLoading(true)
-  //    getData().then((res)=>{
-  //     SetItem(res)
-  //    }).catch((err)=>{
-  //     console.log(err);
-  //    }).finally(()=>{
-  //     setIsLoading(false)
-  //    })
-  // } 
-    // console.log(item)
-  // {
-  //   const lg_gye = item?.filter((el)=> ((el.name).toLowerCase()).includes(inp.toLowerCase()) )
-  //      setSearchData(lg_gye)
-  // }
-  
-  // handleSearch()
-//   const handleSearch = () => {
-//     console.log("aaaaaaaagaye")
-//     const lg_gye = item?.filter((el) => {
-//          return ((el.description
-// ).toLowerCase()).includes(inp.toLowerCase()) || ((el.name
-// ).toLowerCase()).includes(inp.toLowerCase())
-//     })
-  
-//     setSearchData(lg_gye)
-//     // setInp("")
-          
-//   }
  
-  
-  // console.log(searchdata);
 
 
   return (
@@ -131,7 +90,6 @@ const Menu = () => {
               {/* <NavLink to="#">Box Meals</NavLink> */}
             <Link to="burgers" activeClass="active" duration={2000} spy={true} smooth={true}>Burgers</Link>
 
-            <Link to="biryaniBuckets" activeClass="active" duration={2000} spy={true} smooth={true}>Biryani Buckets</Link>
 
 
               {/* <NavLink to="#">Burgers</NavLink> */}
@@ -187,7 +145,7 @@ const Menu = () => {
              </Box>
              <Box  id="biryaniBuckets">
              {/* <Heading  m="50px 50px"   as="h1" size="lg">BIRYANI BUCKET</Heading> */}
-                <BiryaniBuckets/>
+            
              </Box>
 
              <Box  id="snack">

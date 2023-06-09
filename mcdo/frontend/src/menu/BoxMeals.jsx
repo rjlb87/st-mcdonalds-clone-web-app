@@ -4,10 +4,19 @@ import React, { useEffect, useState } from "react";
 import SingleCard from "./SingleCard";
 
 const dealDataFromApi = () => {
-  return fetch(`https://vfc-database.vercel.app/products?cate=boxMeals`).then((res) =>
-    res.json()
-  );
-};
+  return fetch('https://localhost:3000/products')
+  .then(response => response.json())
+  .then(data => {
+    // Process the data received from the API
+    console.log(data);
+    // Render the data on your webpage or perform any other actions
+  })
+  .catch(error => {
+    // Handle any errors that occurred during the fetch request
+    console.error('Error:', error);
+  });
+}
+
 
 const BoxMeals = () => {
   const [isLoading, setIsLoading] = useState(false);
